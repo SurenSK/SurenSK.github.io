@@ -1,6 +1,6 @@
 ---
 layout: page
-title: submenus
+title: submenus alt
 nav: true
 nav_order: 6
 dropdown: true
