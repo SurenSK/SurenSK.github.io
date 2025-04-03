@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=698701dda6643fff46c4f66f2288c0c0c4c60b9c">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Dataset Selection Matters | Suren’s Blog (tmp name)</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Dataset Selection Matters" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Why Dataset Selection Matters: A Non-Technical Introduction" />
+<meta property="og:description" content="Why Dataset Selection Matters: A Non-Technical Introduction" />
+<link rel="canonical" href="http://localhost:4000/2025/04/03/subselectionIntuition.html" />
+<meta property="og:url" content="http://localhost:4000/2025/04/03/subselectionIntuition.html" />
+<meta property="og:site_name" content="Suren’s Blog (tmp name)" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-04-03T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Dataset Selection Matters" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-04-03T00:00:00-04:00","datePublished":"2025-04-03T00:00:00-04:00","description":"Why Dataset Selection Matters: A Non-Technical Introduction","headline":"Dataset Selection Matters","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2025/04/03/subselectionIntuition.html"},"url":"http://localhost:4000/2025/04/03/subselectionIntuition.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          
+            <a id="forkme_banner" href="https://github.com/SurenSK/SurenSK.github.io">View on GitHub</a>
+          
+
+          <h1 id="project_title">Suren's Blog (tmp name)</h1>
+          <h2 id="project_tagline">Scattered thoughts on LLMs and adjacent topics</h2>
+
+          
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1 id="why-dataset-selection-matters-a-non-technical-introduction">Why Dataset Selection Matters: A Non-Technical Introduction</h1>
+
+<p>Your time is valuable. When deciding which Netflix show to watch next, you want it to be worth your while. Maybe you’re looking for something fresh and exciting, or perhaps you prefer more of what you already know you like.</p>
+
+<p>We all have this intuitive ability to predict if a new show will be worthwhile. We consider the genre, aesthetic, actors, trailer tone, production quality, and sometimes even the creators behind the scenes. And of course, we don’t silo these signals, we combine them intelligently. A new actor in a genre that thrives on worldbuilding? The risk seems manageable. A massive budget production? Perhaps they’ve polished away all the interesting edges to maximize mass appeal. These evaluations happen almost automatically, and they save us countless hours of watching disappointing content.</p>
+
+<p>This intuitive evaluation process is essentially what “taste” is, the ability to know what we want and to reliably predict if something new will satisfy those preferences by pulling in all available streams of information available to us.</p>
+
+<p>Now while most ML training still brute forces through all available data, what if we could teach models to be as selective and so as time-efficient as we are with our netflix choices? Help them develop this same kind of “taste”? Why not ensure that each evaluation sample provides maximum information about model performance?</p>
+
+<p>Just as there are signals that help predict our enjoyment of media, there are rich signals that indicate how informative a data sample will be. If samples 3, 6, and 13 have consistently shown similar performance in your past N evaluations, would you really be on the edge of your seat waiting for sample 13’s results when you already have data from samples 3 and 6? Probably not. You’d have a pretty good idea how it would turn out.</p>
+
+<p>There are of course, various questions regarding just how we might go about incorporating all the pre-existing data we have to inform our understanding of which samples tell us what, how much of such information we need, how well this would work in practice, and indeed, if this will actually save us a lot of time. These questions will be answered in the next post, soon™.</p>
+
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p class="copyright">Suren's Blog (tmp name) maintained by <a href="https://github.com/SurenSK">SurenSK</a></p>
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
